@@ -24,15 +24,6 @@ Clicker::~Clicker()
     delete ui;
 }
 
-void Clicker::on_buttonOne_clicked()
-{
-
-}
-
-void Clicker::on_buttonLoad_clicked()
-{
-
-}
 
 void Clicker::loadFile()
 {

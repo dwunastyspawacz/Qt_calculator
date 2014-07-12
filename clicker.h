@@ -22,16 +22,10 @@ public slots:
     void loadFile();
     void interpretTheLine(QString myLine);
 
-
 signals:
     void showTheEquationOnTheLabel(QString myLine);
     void sendLineForInterpretation(QString myLine);
     void sendResultToLCD(int val);
-
-private slots:
-    void on_buttonOne_clicked();
-
-    void on_buttonLoad_clicked();
 
 private:
     Ui::Clicker *ui;
